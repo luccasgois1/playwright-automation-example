@@ -16,11 +16,14 @@ This is a proof of concept of Playwright use for automate the SignIn page of [Yo
 
 ## Prepare your environment
 
-1. Node 20.16.0
-
+1. [Install Node 20.16.0](https://nodejs.org/pt/download)
+1. Clone this repository to your local machine: `git clone https://github.com/luccasgois1/playwright-automation-example.git`
+1. Install the required packages
 ```bash
 # Install the required packages
 npm install
+# Make sure playwright drivers and dependencies are installed
+npx playwright install --with-deps
 ```
 
 ## How to run the tests
